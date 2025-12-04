@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maheen Akram Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <div class="Navbar">
+        <h1>Maheen Akram</h1>
+        <nav id="navLinks">
+          <a href="#about">About</a>
+          <a href="#ProSec">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="#todo">To-Do App</a>
+        </nav>
+        <i class="fas fa-bars" id="menuIcon"></i>
+      </div>
+      <nav id="navLinks2">
+        <a href="#about">About</a>
+        <a href="#ProSec">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#todo">To-Do App</a>
+      </nav>
+    </header>
+
+    <!-- About Section -->
+
+    <section class="about" id="about">
+      <div class="Image">
+        <div class="img-Outer">
+          <img src="./images/download.jpg" alt="" />
+        </div>
+      </div>
+      <div class="Info">
+        <h2>About Me:</h2>
+        <p>
+          I'm Maheen Akram — a passionate front-end developer who loves building
+          elegant, responsive, and interactive websites using HTML, CSS, and
+          JavaScript.
+        </p>
+        <h3>Skills:</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3 (Flexbox & Grid)</li>
+          <li>JavaScript (ES6+)</li>
+          <li>Responsive Design</li>
+          <li>Web Animation (GSAP)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <section class="ProSec" id="ProSec">
+      <h1>My Projects</h1>
+      <div class="Boxes">
+        <div class="probox">
+          <div class="ProName">
+            <h3>Farmrise</h3>
+            <i class="fa-solid fa-tractor"></i>
+          </div>
+          <p>
+            A farmer support website providing weather info, maps, and community
+            sharing.
+          </p>
+          <button>
+            <a href="https://github.com/MaheenAkram/Farmrise.git"
+              >View Project</a
+            >
+          </button>
+        </div>
+
+        <div class="probox">
+          <div class="ProName">
+            <h3>SkyWaves</h3>
+            <i class="fa-brands fa-skyatlas"></i>
+          </div>
+          <p>
+            A farmer support website providing weather info, maps, and community
+            sharing.
+          </p>
+          <button>
+            <a href="https://github.com/MaheenAkram/Skywaves.git"
+              >View Project</a
+            >
+          </button>
+        </div>
+        <div class="probox">
+          <div class="ProName">
+            <h3>Buget Tracker</h3>
+            <i class="fas fa-money-bill-wave"></i>
+          </div>
+          <p>
+            A farmer support website providing weather info, maps, and community
+            sharing.
+          </p>
+          <button>
+            <a href="https://github.com/MaheenAkram/Budget-Tracker.git"
+              >View Project</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+   
+ <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- To-Do App -->
+  <section id="todo" class="todo">
+    <h2>To-Do List App</h2>
+    <div class="todo-app">
+      <input type="text" id="taskInput" placeholder="Add a new task..." />
+      <button id="addBtn">Add</button>
+      <ul id="taskList"></ul>
+      <p id="emptyMsg">Your list is empty 💭</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Maheen Akram | All Rights Reserved</p>
+  </footer>
+
+
+
+
+    <script src="./style.js"></script>
+  </body>
+</html>
